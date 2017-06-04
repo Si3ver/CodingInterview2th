@@ -21,9 +21,6 @@ bool duplicate(int numbers[], int length, int* duplication)
 			}
 
 			//swap numbers[i] & numbers[numbers[i]]
-			// int tmp = numbers[numbers[i]];
-			// numbers[numbers[i]] = numbers[i];
-			// numbers[i] = tmp;
 			int tmp = numbers[i];
 			numbers[i] = numbers[tmp];
 			numbers[tmp] = tmp;
