@@ -1,3 +1,6 @@
+/*寻找0~n-1数组中重复的数
+*/
+
 #include <iostream>
 using namespace std;
 
